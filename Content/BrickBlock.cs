@@ -6,7 +6,7 @@ namespace SuperMarioMod.Content
 {
 	public class BrickBlock : TileNPC
 	{
-		public override string Texture => $"{Mod.Name}/Content/BrickBlock";
+		public override string Texture => $"{Mod.Name}/Content/SMBLS/BrickBlock";
 		private int frames = 2;
 		public override void SetStaticDefaults()
 		{

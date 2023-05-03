@@ -6,7 +6,7 @@ namespace SuperMarioMod.Content
 {
 	public class PowerupSliding : Powerup
 	{
-		public override string Texture => $"{Mod.Name}/Content/Powerup";
+		public override string Texture => $"{Mod.Name}/Content/BaseClasses/Powerup";
 		public override void SetDefaults()
 		{
 			base.SetDefaults();

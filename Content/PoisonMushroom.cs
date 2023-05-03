@@ -6,7 +6,7 @@ namespace SuperMarioMod.Content
 {
 	public class PoisonMushroom : PowerupSliding
 	{
-		public override string Texture => $"{Mod.Name}/Content/PoisonMushroom";
+		public override string Texture => $"{Mod.Name}/Content/SMBLS/PoisonMushroom";
 		private int frames = 1;
 		public override void SetStaticDefaults()
 		{

@@ -6,7 +6,7 @@ namespace SuperMarioMod.Content
 {
 	public class QuestionBlock : TileNPC
 	{
-		public override string Texture => $"{Mod.Name}/Content/QuestionBlock";
+		public override string Texture => $"{Mod.Name}/Content/SMBLS/QuestionBlock";
 		private int frames = 3;
 		public override void SetStaticDefaults()
 		{
